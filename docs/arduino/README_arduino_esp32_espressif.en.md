@@ -15,4 +15,4 @@ In case you do not want to use the custom fri3d board package in the arduino IDE
 * Under **Tools>USB CDC On Boot>...** select `Enabled` to enable the serial port
 * Under **Tools>Flash Size>...** select `16 MB`
 * Under **Tools>PSRAM>...** select `OPI PSRAM`
-* follow the rest of the uploading steps from the [README.md](./README.md)
+* follow the rest of the uploading steps from the [README.en.md](./README.en.md)
