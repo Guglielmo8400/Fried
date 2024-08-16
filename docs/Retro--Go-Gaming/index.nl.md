@@ -42,9 +42,34 @@ Het project bestaat uit een "lanceerder" en een selectie van de beste applicatie
 - `A`: Schieten (of slaan)
 - `B`: Snel of zijwaarts lopen
 
-## SD Kaartje of intern opslaggeheugen
+## Spelletjes toevoegen (of verwijderen)
 
-De badge zal proberen de micro SD kaart (geformatteerd als FAT) te gebruiken en als dat niet lukt, het interne opslaggeheugen.
+Spelletjes voor emulators worden vaak "ROMs" genoemd die je op internet kan downloaden.
+
+GameBoy (Color) ROMs hebben meestal een .gb of .gbc extensie, en NES games een .nes extensie.
+GameBoy Advance wordt niet ondersteund.
+
+Je kan ook een .zip bestand maken met 1 ROM erin, waardoor het maar half zoveel opslagruimte gebruikt.
+
+### Intern geheugen
+
+Om meer spelletjes naar het interne geheugen te kopieren:
+
+- zet de hotspot van retro-go op de badge aan *(X knop -> "Wi-Fi options" -> "Wi-Fi Access Point" en kies er eentje, bijvoorbeeld "retro-go-channel-3")*
+- verbindt met de hotspot vanop je laptop of telefoon
+- surf naar http://192.168.4.1/ vanop je laptop of telefoon
+- nu zie je een simpele file manager waarmee je mappen en bestanden kan toevoegen en verwijderen
+- plaats je spelletjes ROMs in de map `roms/gb`, `roms/gbc` en `roms/nes`
+
+### Extern geheugen (micro SD kaart)
+
+Om het externe geheugen te beheren, kan je de hotspot gebruiken, net zoals voor het interne geheugen.
+Of kan je de micro SD kaart eruit halen en rechtstreeks daarop werken.
+
+## Micro SD kaart vullen
+
+De badge zal proberen de micro SD kaart (geformatteerd als FAT32, niet exFAT of NTFS) te gebruiken.
+Als als dat niet lukt, koppelt hij het interne geheugen aan.
 
 Als je een nieuwe micro SD kaart insteekt, is het aangeraden om dit eerst te vullen met de laaste nieuwe `default_files_config_and_games.zip` van [de releases pagina](https://github.com/Fri3dCamp/badge_retro-go/releases) zodat je alle juiste standaard instellingen hebt, zoals de wifi netwerken.
 

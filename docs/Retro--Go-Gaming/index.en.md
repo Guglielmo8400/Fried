@@ -42,10 +42,34 @@ The project consists of a "launcher" and a selection of the best applications an
 - `A`: Shoot (or hit)
 - `B`: Walk fast or sideways
 
+## Add (or remove) games
 
-## SD Card or internal storage
+Emulator games are often called "ROMs" that you can download from the Internet.
 
-The badge will try to use the micro SD card (formatted as FAT) and if that fails, the internal storage.
+GameBoy (Color) ROMs usually have a .gb or .gbc extension, and NES games have a .nes extension.
+GameBoy Advance is not supported.
+
+You can also create a .zip file with 1 ROM in it, so it uses less storage space.
+
+### Internal memory
+
+To copy more games to the internal memory:
+
+- turn on the retro-go hotspot on the badge *(X button -> "Wi-Fi options" -> "Wi-Fi Access Point" and choose one, for example "retro-go-channel-3")*
+- connects to the hotspot from your laptop or phone
+- surf to http://192.168.4.1/ from your laptop or phone
+- now you will see a simple file manager that allows you to add and remove folders and files
+- place your games ROMs in the folder `roms/gb`, `roms/gbc` and `roms/nes`
+
+### External memory (micro SD card)
+
+To manage the external memory, you can use the hotspot, just like you do for the internal memory.
+Or you can remove the micro SD card and work directly on it.
+
+## Fill micro SD card
+
+The badge will attempt to use the micro SD card (formatted as FAT32, not exFAT or NTFS).
+If that doesn't work, he connects the internal memory.
 
 When you insert a new micro SD card, it is recommended to first fill it with the latest `default_files_config_and_games.zip` from [the releases page](https://github.com/Fri3dCamp/badge_retro-go/releases) so that you have all the correct default settings, such as wifi networks.
 
