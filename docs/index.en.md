@@ -5,13 +5,11 @@
 You're looking for info on one of these boards? Click on it:
 
 <div style="display: grid;grid-gap:1rem;grid-template-columns: repeat(2, 1fr);">
-
-<a href="/badge_2024/flamingo"><img src="flamingo/flamingo.jpg" alt="Flamingo"/></a>
-<a href="/badge_2024/noisycricket/"><img src="noisycricket/pin_header_alternate_orientation.png" alt="Noisy Cricket"/></a>
-<a href="/badge_2024/communicator/"><img src="communicator.webp" alt="Communicator"/></a>
-<a href="/badge_2024/onboarding/"><img src="badge2024.jpg" alt="Badge 2024"/></a>
-<a href="/badge_2024/blaster-2022/"><img src="blaster-2022.webp" alt="Blaster 2022"/></a>
-
+<a href="/badge_2024/flamingo"><img src="https://github.com/user-attachments/assets/425ef8d3-a84c-440c-9f9b-aee26c912a7d" alt="Flamingo"/></a>
+<a href="/badge_2024/noisycricket/"><img src="https://github.com/user-attachments/assets/cc740bb1-6c54-4033-80f9-a22aa88e03d8" alt="Noisy Cricket"/></a>
+<a href="/badge_2024/communicator/"><img src="https://github.com/user-attachments/assets/df5cb512-e94d-4f0b-8eed-7b02f5d6237c" alt="Communicator"/></a>
+<a href="/badge_2024/onboarding/"><img src="https://github.com/user-attachments/assets/f8e550cb-1bc9-4c67-8f9c-080dc4022fbc" alt="Badge 2024"/></a>
+<a href="/badge_2024/blaster-2022/"><img src="https://github.com/user-attachments/assets/4d4b20a9-afb3-4a79-84e4-f03e38b9a97c" alt="Blaster 2022"/></a>
 </div>
 
 ## Play with it
