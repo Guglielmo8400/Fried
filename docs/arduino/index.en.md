@@ -12,7 +12,7 @@ The badge carries an ESP32-S3 with some peripherals and custom pin settings. In 
 * Search for the `fri3d-esp32` boards manager from Fri3d Vzw and install the latest version.
 
 #### Alternative option: using official espressif esp32 boards package
-* If you for some reason want to use the [official espressif esp32 boards package](https://espressif.github.io/arduino-esp32) instead of our modified package, then follow the instructions in [README_arduino_esp32_espressif.md](./README_arduino_esp32_espressif.md).
+* If you for some reason want to use the [official espressif esp32 boards package](https://espressif.github.io/arduino-esp32) instead of our modified package, then follow the instructions in [README_arduino_esp32_espressif.en.md](./README_arduino_esp32_espressif.en.md).
 
 ### Selecting the Fri3d Badge under boards
 * If you have successfully installed the library, then you should now be able to select the `Fri3d Badge 2024 (ESP32-S3-WROOM-1)` board under **Tools>Board>fri3d-esp32**
