@@ -3,8 +3,7 @@ You have a `blaster-2022` and you want to upgrade it to the latest software, so 
 
 <img src="https://github.com/user-attachments/assets/ffb33687-16a3-4096-b759-7f38967c1e2d" width="400">
 
-Upgrade your `blaster-2022` firmware now with Embeetle IDE. On this page you'll find all the required steps.
-
+You can upgrade the firmware at the `badge flash station`. If you have an advanced version of the `blaster-2022` - with programmer - then you can also upgrade your firmware from your laptop with Embeetle IDE. On this page you'll find all the required steps.
 
 &nbsp;<br>
 # Embeetle IDE
