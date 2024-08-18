@@ -69,6 +69,11 @@ Selecteer **USB Module** uit de list of devices en kies **WinUSB** als driver. K
 <img src="https://github.com/user-attachments/assets/c5cb00ea-d307-4fd1-a668-03270ae98f34" width="600">
 
 &nbsp;<br>
+Misschien vond je **USB Module** niet in de 'list of devices'? In dat geval vind je wellicht **Unknown Device #1**. Neem die en kies **WinUSB** als driver. Klik dan op **Replace Driver**:
+
+<img src="https://github.com/user-attachments/assets/7346d900-9fa8-4521-b305-e05644c6b123" width="600">
+
+&nbsp;<br>
 Wacht tot de driver-installatie is voltooid:
 
 <img src="https://github.com/user-attachments/assets/b55a5996-c4af-4f2c-ac66-8b4f59a05aed" width="600">
